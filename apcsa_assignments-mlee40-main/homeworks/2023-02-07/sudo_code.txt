@@ -1,0 +1,5 @@
+1. read the first line and find the number of rows and columns in the array
+2. create an array with the trees and pastures (using the size of the array given beforehand)
+3. using recursion, which tells the cow to avoid trees or empty space on either 4 directions, create a 2d array of all possible paths with designated path length.
+4. loop through the arrays and remove the ones with stars (trees) in them.
+5. count the number of remaining paths.

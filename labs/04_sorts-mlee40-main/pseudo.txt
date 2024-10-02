@@ -1,0 +1,20 @@
+Bubble Sort:
+Create a nested for loop iterating through each element of the array.
+If the element at index i is greater than the element at index i+1, switch the two elements.
+Loop through the array again, excluding the last element by setting second iterator less than (array length - first iterator - 1).
+Print array for each iteration of first for loop.
+
+Insertion Sort:
+Create a nested while loop inside of a for loop iterating through each element of the array.
+For each element at array[i], check if its value is smaller than the element at array[i-1]. If it is, switch the two elements. Repeat this process (in the while loop) until array[i-1] <= array[i], for which you leave the values where they are.
+Loop through the array again, excluding the last element by setting second iterator less than (array length - first iterator - 1).
+Print array for each iteration of first for loop.
+
+Selection Sort:
+Create a nested for loop iterating through each element of the array.
+	In the outer for loop, begin index i = 0, and in the inner for loop, have index j = i
+Set min_index to i
+If the element at index i is greater than the element at index j, set min_index to j.
+Switch the values at index i and at index min_index.
+Print array for each iteration of first for loop.
+

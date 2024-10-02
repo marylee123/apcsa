@@ -1,0 +1,9 @@
+3.
+4.
+5.
+7.
+method not defined in class shape
+
+abstract class cant be used to create instances
+bc method wasnt implemented in rectangle
+yes bc info method wasn't implemented

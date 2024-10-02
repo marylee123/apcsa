@@ -1,0 +1,19 @@
+// part (a)
+/** return the sum of the number of boxes of all the cookie orders */
+public int getTotalBoxes() {
+    int sum = 0;
+    for (int i = 0; i < orders.size(); i++){
+        sum += orders.get(i).getSecond();
+    }
+    return sum;
+}
+// part (b)
+public int removeVariety(String cookieVar){
+    int sum = 0;
+    for (int i = 0; i < orders.size(); i++){
+    	if(orders.get(i).getFirst().equals(cookieVar)){
+    		sum += orders.get(i).getFirst();
+    	}
+    }
+    return sum;
+} 

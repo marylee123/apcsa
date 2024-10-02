@@ -1,0 +1,10 @@
+1. scan the file
+2. create an RxC array with initial elevation values
+3. create a loop to iterate through each instruction
+	4. identify the values in the cow herd's 3x3 array
+	5. find the highest value in the 3x3 array
+	6. subtract the instructed amount from the acquired value
+	7. replace each value in the 3x3 array with the new value
+4. sum all the values in the RxC array
+5. find the lake value and subtract the sum from it
+6. convert feet to inches and find the total lake volume
